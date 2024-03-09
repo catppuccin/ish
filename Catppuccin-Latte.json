@@ -1,0 +1,27 @@
+{
+  "name": "Catppuccin Latte",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#EFF1F5",
+    "colorPaletteOverrides": [
+      "#5C5F77",
+      "#D20F39",
+      "#40A02B",
+      "#DF8E1D",
+      "#1E66F5",
+      "#EA76CB",
+      "#179299",
+      "#ACB0BE",
+      "#6C6F85",
+      "#D20F39",
+      "#40A02B",
+      "#DF8E1D",
+      "#1E66F5",
+      "#EA76CB",
+      "#179299",
+      "#BCC0CC"
+    ],
+    "cursorColor": "#DC8A78",
+    "foregroundColor": "#4C4F69"
+  }
+}
