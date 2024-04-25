@@ -34,7 +34,7 @@
 <img src="./assets/mocha.webp"/>
 </details>
 
-## Installation instruction
+## Installation
 
 ### Option 1 - Using Files
 
