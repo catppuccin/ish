@@ -53,6 +53,10 @@ git clone --depth 1 https://github.com/g3rhard/catppuccin-ish
 cp catppuccin-ish/*.json ish-themes
 ```
 
+## 💝 Thanks to
+
+- [g3rhard](https://github.com/g3rhard)
+
 &nbsp;
 
 <p align="center">
