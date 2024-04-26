@@ -48,7 +48,7 @@
 
 ```sh
 mkdir ish-themes
-mount -t real \"$(cat /proc/ish/documents)/themes\" ish-themes
+mount -t real "$(cat /proc/ish/documents)/themes" ish-themes
 git clone --depth 1 https://github.com/g3rhard/catppuccin-ish
 cp catppuccin-ish/*.json ish-themes
 ```
