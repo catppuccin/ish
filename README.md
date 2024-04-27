@@ -36,21 +36,21 @@
 
 ## Installation
 
-### Option 1 - Using Files
+### Using Files
 
 1. Save the chosen theme to your device.
-2. Open the app's settings
-3. Select `Appearance > Theme > Edit > Import Theme`
-4. Locate the file on your device
-5. Click the `Done` button and select the desired theme
+2. Open the app's settings.
+3. Select **Appearance** > **Theme** > **Edit** > **Import Theme**.
+4. Locate the file on your device.
+5. Click the `Done` button and select the desired theme.
 
-### Option 2 - Directly from iSH
+### Directly from iSH
 
 ```sh
 mkdir ish-themes
 mount -t real "$(cat /proc/ish/documents)/themes" ish-themes
-git clone --depth 1 https://github.com/g3rhard/catppuccin-ish
-cp catppuccin-ish/*.json ish-themes
+git clone --depth 1 https://github.com/catppuccin/ish
+cp ish/*.json ish-themes
 ```
 
 ## 💝 Thanks to
