@@ -34,24 +34,15 @@
 <img src="./assets/mocha.webp"/>
 </details>
 
-## Installation
+## Usage
 
 ### Using Files
 
-1. Save the chosen theme to your device.
-2. Open the app's settings.
+1. Download the flavor of your choice from [`themes/`](./themes).
+2. Open iSH's settings.
 3. Select **Appearance** > **Theme** > **Edit** > **Import Theme**.
-4. Locate the file on your device.
+4. Locate and upload the previously downloaded file.
 5. Click the `Done` button and select the desired theme.
-
-### Directly from iSH
-
-```sh
-mkdir ish-themes
-mount -t real "$(cat /proc/ish/documents)/themes" ish-themes
-git clone --depth 1 https://github.com/catppuccin/ish
-cp ish/*.json ish-themes
-```
 
 ## 💝 Thanks to
 
