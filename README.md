@@ -6,37 +6,35 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/g3rhard/catppuccin-ish/stargazers"><img src="https://img.shields.io/github/stars/g3rhard/catppuccin-ish?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/g3rhard/catppuccin-ish/issues"><img src="https://img.shields.io/github/issues/g3rhard/catppuccin-ish?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/g3rhard/catppuccin-ish/contributors"><img src="https://img.shields.io/github/contributors/g3rhard/catppuccin-ish?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/ish/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/ish?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/ish/issues"><img src="https://img.shields.io/github/issues/catppuccin/ish?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/catppuccin/ish/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/ish?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
-	<img src="./assets/preview.webp"/>
+	<img src="assets/preview.webp"/>
 </p>
 
 ## Previews
 
 <details>
 <summary>🌻 Latte</summary>
-<img src="./assets/latte.webp"/>
+<img src="assets/latte.webp"/>
 </details>
 <details>
 <summary>🪴 Frappé</summary>
-<img src="./assets/frappe.webp"/>
+<img src="assets/frappe.webp"/>
 </details>
 <details>
 <summary>🌺 Macchiato</summary>
-<img src="./assets/macchiato.webp"/>
+<img src="assets/macchiato.webp"/>
 </details>
 <details>
 <summary>🌿 Mocha</summary>
-<img src="./assets/mocha.webp"/>
+<img src="assets/mocha.webp"/>
 </details>
 
 ## Usage
-
-### Using Files
 
 1. Download the flavor of your choice from [`themes/`](./themes).
 2. Open iSH's settings.
