@@ -3,7 +3,7 @@ whiskers:
   version: 2.1.0
   matrix:
     - flavor
-  filename: "themes/Catppuccin-{{ flavor.name }}.json"
+  filename: "themes/catppuccin-{{ flavor.identifier }}.json"
 ---
 
 {%- set palette = flavor.colors -%}

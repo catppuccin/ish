@@ -1,0 +1,27 @@
+{
+  "name": "Catppuccin Frappé",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#303446",
+    "colorPaletteOverrides": [
+      "#51576d",
+      "#e78284",
+      "#a6d189",
+      "#e5c890",
+      "#8caaee",
+      "#f4b8e4",
+      "#81c8be",
+      "#b5bfe2",
+      "#626880",
+      "#e78284",
+      "#a6d189",
+      "#e5c890",
+      "#8caaee",
+      "#f4b8e4",
+      "#81c8be",
+      "#a5adce"
+    ],
+    "cursorColor": "#f2d5cf",
+    "foregroundColor": "#c6d0f5"
+  }
+}
