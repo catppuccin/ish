@@ -1,0 +1,37 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+  filename: "themes/catppuccin-{{ flavor.identifier }}.json"
+---
+
+{%- set palette = flavor.colors -%}
+
+{
+  "name": "Catppuccin {{ flavor.name }}",
+  "version": 1,
+  "shared": {
+    "backgroundColor": "#{{ palette.base.hex }}",
+    "colorPaletteOverrides": [
+      "#{{ palette.surface1.hex }}",
+      "#{{ palette.red.hex }}",
+      "#{{ palette.green.hex }}",
+      "#{{ palette.yellow.hex }}",
+      "#{{ palette.blue.hex }}",
+      "#{{ palette.pink.hex }}",
+      "#{{ palette.teal.hex }}",
+      "#{{ palette.subtext1.hex }}",
+      "#{{ palette.surface2.hex }}",
+      "#{{ palette.red.hex }}",
+      "#{{ palette.green.hex }}",
+      "#{{ palette.yellow.hex }}",
+      "#{{ palette.blue.hex }}",
+      "#{{ palette.pink.hex }}",
+      "#{{ palette.teal.hex }}",
+      "#{{ palette.subtext0.hex }}"
+    ],
+    "cursorColor": "#{{ palette.rosewater.hex }}",
+    "foregroundColor": "#{{ palette.text.hex }}"
+  }
+}
