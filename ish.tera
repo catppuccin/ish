@@ -5,14 +5,15 @@ whiskers:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.json"
   hex_format: "#{{r}}{{g}}{{b}}{{z}}"
+light_flavor: "latte"
 ---
 {%- set modes = ["light", "dark"] -%}
 {
-  "name": "Catppuccin {{ flavor.name }} with Latte",
+  "name": "Catppuccin {{ flavor.name }} with {{ flavors[light_flavor].name }}",
   "version": 1,
   {%- for mode in modes %}
     {%- if mode == "light" -%}
-      {%- set palette = flavors["latte"].colors -%}
+      {%- set palette = flavors[light_flavor].colors -%}
     {%- else -%}
       {%- set palette = flavor.colors -%}
     {%- endif %}
