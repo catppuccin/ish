@@ -6,30 +6,37 @@ whiskers:
   filename: "themes/catppuccin-{{ flavor.identifier }}.json"
   hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
+{%- set modes = ["light", "dark"] -%}
 {
-  "name": "Catppuccin {{ flavor.name }}",
+  "name": "Catppuccin {{ flavor.name }} with Latte",
   "version": 1,
-  "shared": {
+  {%- for mode in modes %}
+    {%- if mode == "light" -%}
+      {%- set palette = flavors["latte"].colors -%}
+    {%- else -%}
+      {%- set palette = flavor.colors -%}
+    {%- endif %}
+  "{{ mode }}": {
     "backgroundColor": "{{ base.hex }}",
     "colorPaletteOverrides": [
-      "{{ surface1.hex }}",
-      "{{ red.hex }}",
-      "{{ green.hex }}",
-      "{{ yellow.hex }}",
-      "{{ blue.hex }}",
-      "{{ pink.hex }}",
-      "{{ teal.hex }}",
-      "{{ subtext1.hex }}",
-      "{{ surface2.hex }}",
-      "{{ red.hex }}",
-      "{{ green.hex }}",
-      "{{ yellow.hex }}",
-      "{{ blue.hex }}",
-      "{{ pink.hex }}",
-      "{{ teal.hex }}",
-      "{{ subtext0.hex }}"
+      "{{ palette.surface1.hex }}",
+      "{{ palette.red.hex }}",
+      "{{ palette.green.hex }}",
+      "{{ palette.yellow.hex }}",
+      "{{ palette.blue.hex }}",
+      "{{ palette.pink.hex }}",
+      "{{ palette.teal.hex }}",
+      "{{ palette.subtext1.hex }}",
+      "{{ palette.surface2.hex }}",
+      "{{ palette.red.hex }}",
+      "{{ palette.green.hex }}",
+      "{{ palette.yellow.hex }}",
+      "{{ palette.blue.hex }}",
+      "{{ palette.pink.hex }}",
+      "{{ palette.teal.hex }}",
+      "{{ palette.subtext0.hex }}"
     ],
-    "cursorColor": "{{ rosewater.hex }}",
-    "foregroundColor": "{{ text.hex }}"
-  }
+    "cursorColor": "{{ palette.rosewater.hex }}",
+    "foregroundColor": "{{ palette.text.hex }}"
+  }{% if not loop.last %},{% endif %}{%- endfor -%}
 }
