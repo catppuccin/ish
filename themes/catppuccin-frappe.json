@@ -1,7 +1,30 @@
 {
-  "name": "Catppuccin Frappé",
+  "name": "Catppuccin Frappé with Latte",
   "version": 1,
-  "shared": {
+  "light": {
+    "backgroundColor": "#303446",
+    "colorPaletteOverrides": [
+      "#bcc0cc",
+      "#d20f39",
+      "#40a02b",
+      "#df8e1d",
+      "#1e66f5",
+      "#ea76cb",
+      "#179299",
+      "#5c5f77",
+      "#acb0be",
+      "#d20f39",
+      "#40a02b",
+      "#df8e1d",
+      "#1e66f5",
+      "#ea76cb",
+      "#179299",
+      "#6c6f85"
+    ],
+    "cursorColor": "#dc8a78",
+    "foregroundColor": "#4c4f69"
+  },
+  "dark": {
     "backgroundColor": "#303446",
     "colorPaletteOverrides": [
       "#51576d",
@@ -23,5 +46,4 @@
     ],
     "cursorColor": "#f2d5cf",
     "foregroundColor": "#c6d0f5"
-  }
-}
+  }}
