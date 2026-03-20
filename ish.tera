@@ -1,37 +1,35 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: "^2.4.0"
   matrix:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.json"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
-
-{%- set palette = flavor.colors -%}
-
 {
   "name": "Catppuccin {{ flavor.name }}",
   "version": 1,
   "shared": {
-    "backgroundColor": "#{{ palette.base.hex }}",
+    "backgroundColor": "{{ base.hex }}",
     "colorPaletteOverrides": [
-      "#{{ palette.surface1.hex }}",
-      "#{{ palette.red.hex }}",
-      "#{{ palette.green.hex }}",
-      "#{{ palette.yellow.hex }}",
-      "#{{ palette.blue.hex }}",
-      "#{{ palette.pink.hex }}",
-      "#{{ palette.teal.hex }}",
-      "#{{ palette.subtext1.hex }}",
-      "#{{ palette.surface2.hex }}",
-      "#{{ palette.red.hex }}",
-      "#{{ palette.green.hex }}",
-      "#{{ palette.yellow.hex }}",
-      "#{{ palette.blue.hex }}",
-      "#{{ palette.pink.hex }}",
-      "#{{ palette.teal.hex }}",
-      "#{{ palette.subtext0.hex }}"
+      "{{ surface1.hex }}",
+      "{{ red.hex }}",
+      "{{ green.hex }}",
+      "{{ yellow.hex }}",
+      "{{ blue.hex }}",
+      "{{ pink.hex }}",
+      "{{ teal.hex }}",
+      "{{ subtext1.hex }}",
+      "{{ surface2.hex }}",
+      "{{ red.hex }}",
+      "{{ green.hex }}",
+      "{{ yellow.hex }}",
+      "{{ blue.hex }}",
+      "{{ pink.hex }}",
+      "{{ teal.hex }}",
+      "{{ subtext0.hex }}"
     ],
-    "cursorColor": "#{{ palette.rosewater.hex }}",
-    "foregroundColor": "#{{ palette.text.hex }}"
+    "cursorColor": "{{ rosewater.hex }}",
+    "foregroundColor": "{{ text.hex }}"
   }
 }
